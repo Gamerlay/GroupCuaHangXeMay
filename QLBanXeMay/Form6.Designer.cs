@@ -43,7 +43,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNgayNhap = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txttenXe = new System.Windows.Forms.TextBox();
+            this.txtTenXe = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -74,6 +74,7 @@
             this.btSua.TabIndex = 3;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -84,6 +85,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -94,6 +96,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // label9
             // 
@@ -187,12 +190,12 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Tên Xe:";
             // 
-            // txttenXe
+            // txtTenXe
             // 
-            this.txttenXe.Location = new System.Drawing.Point(371, 29);
-            this.txttenXe.Name = "txttenXe";
-            this.txttenXe.Size = new System.Drawing.Size(130, 26);
-            this.txttenXe.TabIndex = 4;
+            this.txtTenXe.Location = new System.Drawing.Point(371, 29);
+            this.txtTenXe.Name = "txtTenXe";
+            this.txtTenXe.Size = new System.Drawing.Size(130, 26);
+            this.txtTenXe.TabIndex = 4;
             // 
             // label7
             // 
@@ -233,7 +236,7 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtSoLuong);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.txttenXe);
+            this.groupBox1.Controls.Add(this.txtTenXe);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtNgayNhap);
             this.groupBox1.Controls.Add(this.label4);
@@ -277,6 +280,7 @@
             this.Name = "frmHoaDonNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.frmHoaDonNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonNhap)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -302,7 +306,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNgayNhap;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txttenXe;
+        private System.Windows.Forms.TextBox txtTenXe;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Label label8;

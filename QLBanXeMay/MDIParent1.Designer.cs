@@ -39,6 +39,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
@@ -56,7 +57,6 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button19 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -86,7 +86,7 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.Padding = new System.Drawing.Point(0, 0);
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1014, 106);
+            this.tabControl1.Size = new System.Drawing.Size(1087, 106);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -100,20 +100,20 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(868, 78);
+            this.tabPage1.Size = new System.Drawing.Size(1079, 78);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Hệ Thống";
             // 
             // button15
             // 
-            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.button15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.button15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button15.Location = new System.Drawing.Point(635, 13);
+            this.button15.Location = new System.Drawing.Point(707, 13);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(112, 62);
+            this.button15.Size = new System.Drawing.Size(113, 62);
             this.button15.TabIndex = 4;
             this.button15.Text = "Đăng Xuất";
             this.button15.UseVisualStyleBackColor = true;
@@ -121,14 +121,14 @@
             // 
             // button3
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(244, 13);
+            this.button3.Location = new System.Drawing.Point(300, 13);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(112, 62);
+            this.button3.Size = new System.Drawing.Size(129, 62);
             this.button3.TabIndex = 1;
             this.button3.Text = "Thoát";
             this.button3.UseVisualStyleBackColor = true;
@@ -172,9 +172,21 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1006, 78);
+            this.tabPage2.Size = new System.Drawing.Size(1079, 78);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Quản lý";
+            // 
+            // button19
+            // 
+            this.button19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.button19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button19.Location = new System.Drawing.Point(834, 13);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(112, 62);
+            this.button19.TabIndex = 10;
+            this.button19.Text = "Xe Trong Của Hàng";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button18
             // 
@@ -269,7 +281,7 @@
             this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(868, 78);
+            this.tabPage3.Size = new System.Drawing.Size(1006, 78);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Tiềm kiếm";
             // 
@@ -329,7 +341,7 @@
             this.tabPage4.Controls.Add(this.button12);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(868, 78);
+            this.tabPage4.Size = new System.Drawing.Size(1006, 78);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thống kê-Báo cáo";
             // 
@@ -371,21 +383,9 @@
             this.tabPage5.BackColor = System.Drawing.Color.White;
             this.tabPage5.Location = new System.Drawing.Point(4, 24);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(868, 78);
+            this.tabPage5.Size = new System.Drawing.Size(1006, 78);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Help";
-            // 
-            // button19
-            // 
-            this.button19.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.button19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button19.Location = new System.Drawing.Point(834, 13);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(112, 62);
-            this.button19.TabIndex = 10;
-            this.button19.Text = "Xe Trong Của Hàng";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // MDIParent1
             // 
