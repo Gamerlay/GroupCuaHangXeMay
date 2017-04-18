@@ -1,0 +1,65 @@
+E:\QLBanXeMay\bin\Debug\QLBanXeMay.exe.config
+E:\QLBanXeMay\bin\Debug\QLBanXeMay.exe
+E:\QLBanXeMay\bin\Debug\QLBanXeMay.pdb
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.csprojResolveAssemblyReference.cache
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form1.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Properties.Resources.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.csproj.GenerateResource.Cache
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.exe
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.pdb
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form2.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form3.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form4.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form5.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form6.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form7.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form8.resources
+E:\QLBanXeMay\obj\Debug\QLBanXeMay.Form9.resources
+E:\New folder (7)\QLBanXeMay\bin\Debug\QLBanXeMay.exe.config
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.exe
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.pdb
+E:\New folder (7)\QLBanXeMay\bin\Debug\QLBanXeMay.exe
+E:\New folder (7)\QLBanXeMay\bin\Debug\QLBanXeMay.pdb
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.csprojResolveAssemblyReference.cache
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form1.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form2.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form3.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form4.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form5.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form6.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form7.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form8.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form9.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.MDIParent1.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Properties.Resources.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.csproj.GenerateResource.Cache
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form10.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form11.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form12.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form13.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form14.resources
+E:\New folder (7)\QLBanXeMay\obj\Debug\QLBanXeMay.Form15.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\bin\Debug\QLBanXeMay.exe.config
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.exe
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.pdb
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\bin\Debug\QLBanXeMay.exe
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\bin\Debug\QLBanXeMay.pdb
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.csprojResolveAssemblyReference.cache
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.Form1.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.Form13.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmNhanVien.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmKhachHang.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmChiTietXe.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmHangTonKho.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmHoaDonNhap.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmHoaDonBan.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmNhaCungCap.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.MDIParent1.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.Properties.Resources.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.csproj.GenerateResource.Cache
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmTimKiemNhanVien.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmTimKiemKhachHang.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmTimkiemNhaCungCap.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmThemUser.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmDoiMatKhau.resources
+C:\Users\LeThu\Desktop\New folder\QLBanXeMay\obj\Debug\QLBanXeMay.frmXeTrongCuaHang.resources
