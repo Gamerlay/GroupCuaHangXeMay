@@ -30,7 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtdonGia = new System.Windows.Forms.TextBox();
+            this.txtDonGia = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,15 +49,15 @@
             this.btXoa = new System.Windows.Forms.Button();
             this.btThem = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.dgvHoaDonBan = new System.Windows.Forms.DataGridView();
+            this.dgvHoaDonXuat = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonBan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonXuat)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtdonGia);
+            this.groupBox1.Controls.Add(this.txtDonGia);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtSoLuong);
             this.groupBox1.Controls.Add(this.label7);
@@ -88,12 +88,12 @@
             this.label5.TabIndex = 15;
             this.label5.Text = "Chiếc";
             // 
-            // txtdonGia
+            // txtDonGia
             // 
-            this.txtdonGia.Location = new System.Drawing.Point(371, 92);
-            this.txtdonGia.Name = "txtdonGia";
-            this.txtdonGia.Size = new System.Drawing.Size(130, 26);
-            this.txtdonGia.TabIndex = 6;
+            this.txtDonGia.Location = new System.Drawing.Point(371, 92);
+            this.txtDonGia.Name = "txtDonGia";
+            this.txtDonGia.Size = new System.Drawing.Size(130, 26);
+            this.txtDonGia.TabIndex = 6;
             // 
             // label8
             // 
@@ -220,6 +220,7 @@
             this.btSua.TabIndex = 3;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -230,6 +231,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -240,6 +242,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // label9
             // 
@@ -252,13 +255,13 @@
             this.label9.TabIndex = 33;
             this.label9.Text = "Danh Sách Hóa Đơn Xuất";
             // 
-            // dgvHoaDonBan
+            // dgvHoaDonXuat
             // 
-            this.dgvHoaDonBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHoaDonBan.Location = new System.Drawing.Point(32, 244);
-            this.dgvHoaDonBan.Name = "dgvHoaDonBan";
-            this.dgvHoaDonBan.Size = new System.Drawing.Size(675, 154);
-            this.dgvHoaDonBan.TabIndex = 34;
+            this.dgvHoaDonXuat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHoaDonXuat.Location = new System.Drawing.Point(32, 244);
+            this.dgvHoaDonXuat.Name = "dgvHoaDonXuat";
+            this.dgvHoaDonXuat.Size = new System.Drawing.Size(675, 154);
+            this.dgvHoaDonXuat.TabIndex = 34;
             // 
             // frmHoaDonBan
             // 
@@ -272,14 +275,15 @@
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dgvHoaDonBan);
+            this.Controls.Add(this.dgvHoaDonXuat);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmHoaDonBan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form7";
+            this.Load += new System.EventHandler(this.frmHoaDonBan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonBan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDonXuat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,7 +293,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtdonGia;
+        private System.Windows.Forms.TextBox txtDonGia;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Label label7;
@@ -308,6 +312,6 @@
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button btThem;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dgvHoaDonBan;
+        private System.Windows.Forms.DataGridView dgvHoaDonXuat;
     }
 }

@@ -35,7 +35,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txttenNCC = new System.Windows.Forms.TextBox();
+            this.txtTenNCC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaNCC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtSDT);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txttenNCC);
+            this.groupBox1.Controls.Add(this.txtTenNCC);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaNCC);
             this.groupBox1.Controls.Add(this.label1);
@@ -117,12 +117,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "SDT:";
             // 
-            // txttenNCC
+            // txtTenNCC
             // 
-            this.txttenNCC.Location = new System.Drawing.Point(125, 54);
-            this.txttenNCC.Name = "txttenNCC";
-            this.txttenNCC.Size = new System.Drawing.Size(130, 26);
-            this.txttenNCC.TabIndex = 1;
+            this.txtTenNCC.Location = new System.Drawing.Point(125, 54);
+            this.txtTenNCC.Name = "txtTenNCC";
+            this.txtTenNCC.Size = new System.Drawing.Size(130, 26);
+            this.txtTenNCC.TabIndex = 1;
             // 
             // label2
             // 
@@ -169,6 +169,7 @@
             this.btSua.TabIndex = 3;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -179,6 +180,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -189,6 +191,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // label9
             // 
@@ -226,6 +229,7 @@
             this.Name = "frmNhaCungCap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form9";
+            this.Load += new System.EventHandler(this.frmNhaCungCap_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhaCungCap)).EndInit();
@@ -243,7 +247,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txttenNCC;
+        private System.Windows.Forms.TextBox txtTenNCC;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMaNCC;
         private System.Windows.Forms.Label label1;

@@ -33,7 +33,7 @@
             this.btXoa = new System.Windows.Forms.Button();
             this.btThem = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvChiTietXe = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,11 +49,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtSoMay = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtSokhung = new System.Windows.Forms.TextBox();
+            this.txtSoKhung = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaXe = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,7 @@
             this.btSua.TabIndex = 3;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -87,6 +88,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -97,6 +99,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // label9
             // 
@@ -109,13 +112,14 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Danh Sách Chi Tiết Xe";
             // 
-            // dataGridView1
+            // dgvChiTietXe
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 240);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(675, 165);
-            this.dataGridView1.TabIndex = 20;
+            this.dgvChiTietXe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChiTietXe.Location = new System.Drawing.Point(27, 240);
+            this.dgvChiTietXe.Name = "dgvChiTietXe";
+            this.dgvChiTietXe.Size = new System.Drawing.Size(675, 165);
+            this.dgvChiTietXe.TabIndex = 20;
+            this.dgvChiTietXe.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiTietXe_RowEnter);
             // 
             // groupBox1
             // 
@@ -133,7 +137,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtSoMay);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txtSokhung);
+            this.groupBox1.Controls.Add(this.txtSoKhung);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaXe);
             this.groupBox1.Controls.Add(this.label1);
@@ -259,12 +263,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Số Máy:";
             // 
-            // txtSokhung
+            // txtSoKhung
             // 
-            this.txtSokhung.Location = new System.Drawing.Point(125, 54);
-            this.txtSokhung.Name = "txtSokhung";
-            this.txtSokhung.Size = new System.Drawing.Size(130, 26);
-            this.txtSokhung.TabIndex = 1;
+            this.txtSoKhung.Location = new System.Drawing.Point(125, 54);
+            this.txtSoKhung.Name = "txtSoKhung";
+            this.txtSoKhung.Size = new System.Drawing.Size(130, 26);
+            this.txtSoKhung.TabIndex = 1;
             // 
             // label2
             // 
@@ -302,13 +306,14 @@
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvChiTietXe);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmChiTietXe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chi Tiết Xe";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmChiTietXe_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietXe)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -323,7 +328,7 @@
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button btThem;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvChiTietXe;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtTrongLuong;
@@ -338,7 +343,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSoMay;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtSokhung;
+        private System.Windows.Forms.TextBox txtSoKhung;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMaXe;
         private System.Windows.Forms.Label label1;

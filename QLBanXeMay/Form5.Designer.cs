@@ -35,7 +35,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.dgvHangTonKho = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtTGTK = new System.Windows.Forms.TextBox();
+            this.txtThoiGianTonKho = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMaXe = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,6 +67,7 @@
             this.btSua.TabIndex = 3;
             this.btSua.Text = "Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -77,6 +78,7 @@
             this.btXoa.TabIndex = 2;
             this.btXoa.Text = "Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -87,6 +89,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // label9
             // 
@@ -106,10 +109,11 @@
             this.dgvHangTonKho.Name = "dgvHangTonKho";
             this.dgvHangTonKho.Size = new System.Drawing.Size(675, 158);
             this.dgvHangTonKho.TabIndex = 20;
+            this.dgvHangTonKho.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHangTonKho_RowEnter);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtTGTK);
+            this.groupBox1.Controls.Add(this.txtThoiGianTonKho);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtMaXe);
             this.groupBox1.Controls.Add(this.label6);
@@ -125,12 +129,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Hàng Tồn Kho";
             // 
-            // txtTGTK
+            // txtThoiGianTonKho
             // 
-            this.txtTGTK.Location = new System.Drawing.Point(359, 68);
-            this.txtTGTK.Name = "txtTGTK";
-            this.txtTGTK.Size = new System.Drawing.Size(130, 26);
-            this.txtTGTK.TabIndex = 3;
+            this.txtThoiGianTonKho.Location = new System.Drawing.Point(359, 68);
+            this.txtThoiGianTonKho.Name = "txtThoiGianTonKho";
+            this.txtThoiGianTonKho.Size = new System.Drawing.Size(130, 26);
+            this.txtThoiGianTonKho.TabIndex = 3;
             // 
             // label8
             // 
@@ -206,6 +210,7 @@
             this.Name = "frmHangTonKho";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.frmHangTonKho_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHangTonKho)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -223,7 +228,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dgvHangTonKho;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtTGTK;
+        private System.Windows.Forms.TextBox txtThoiGianTonKho;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtMaXe;
         private System.Windows.Forms.Label label6;
