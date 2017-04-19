@@ -211,6 +211,7 @@
             this.dgvNhaCungCap.Name = "dgvNhaCungCap";
             this.dgvNhaCungCap.Size = new System.Drawing.Size(675, 184);
             this.dgvNhaCungCap.TabIndex = 34;
+            this.dgvNhaCungCap.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhaCungCap_RowEnter);
             // 
             // frmNhaCungCap
             // 

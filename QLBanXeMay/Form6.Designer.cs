@@ -116,6 +116,7 @@
             this.dgvHoaDonNhap.Name = "dgvHoaDonNhap";
             this.dgvHoaDonNhap.Size = new System.Drawing.Size(675, 150);
             this.dgvHoaDonNhap.TabIndex = 27;
+            this.dgvHoaDonNhap.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDonNhap_RowEnter);
             // 
             // label1
             // 

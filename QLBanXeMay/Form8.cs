@@ -92,5 +92,17 @@ namespace QLBanXeMay
             dgvXeTrongCuaHang.DataSource = GetXeTrongCuaHang();
             cn.Close();
         }
+
+        private void dgvXeTrongCuaHang_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            int dong;
+            dong = e.RowIndex;
+            this.txtMaXe.Text = dgvXeTrongCuaHang.Rows[dong].Cells[0].Value.ToString();
+            this.txtMaNhap.Text = dgvXeTrongCuaHang.Rows[dong].Cells[1].Value.ToString();
+            this.txtMaXuat.Text = dgvXeTrongCuaHang.Rows[dong].Cells[2].Value.ToString();
+            this.txtTenXe.Text = dgvXeTrongCuaHang.Rows[dong].Cells[3].Value.ToString();
+            this.txtDonGiaNhap.Text = dgvXeTrongCuaHang.Rows[dong].Cells[4].Value.ToString();
+            this.txtDonGiaXuat.Text = dgvXeTrongCuaHang.Rows[dong].Cells[5].Value.ToString();
+        }
     }
 }

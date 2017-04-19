@@ -2,3 +2,7 @@ C:\Users\Administrator\Desktop\QLXM\GroupCuaHangXeMay\QLBanXeMay\XeMay_DTO\bin\D
 C:\Users\Administrator\Desktop\QLXM\GroupCuaHangXeMay\QLBanXeMay\XeMay_DTO\bin\Debug\XeMay_DTO.pdb
 C:\Users\Administrator\Desktop\QLXM\GroupCuaHangXeMay\QLBanXeMay\XeMay_DTO\obj\Debug\XeMay_DTO.dll
 C:\Users\Administrator\Desktop\QLXM\GroupCuaHangXeMay\QLBanXeMay\XeMay_DTO\obj\Debug\XeMay_DTO.pdb
+C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DTO\bin\Debug\XeMay_DTO.dll
+C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DTO\bin\Debug\XeMay_DTO.pdb
+C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DTO\obj\Debug\XeMay_DTO.dll
+C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DTO\obj\Debug\XeMay_DTO.pdb
