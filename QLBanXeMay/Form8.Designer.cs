@@ -231,6 +231,7 @@
             this.dgvXeTrongCuaHang.Name = "dgvXeTrongCuaHang";
             this.dgvXeTrongCuaHang.Size = new System.Drawing.Size(675, 158);
             this.dgvXeTrongCuaHang.TabIndex = 41;
+            this.dgvXeTrongCuaHang.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvXeTrongCuaHang_RowEnter);
             // 
             // frmXeTrongCuaHang
             // 

@@ -20,7 +20,7 @@ namespace XeMay_DAO
             dp.connect();
             List<KhachHang> list = new List<KhachHang>();
             {
-                string makh, hokh, tenkh, sdt, diachi, email;
+                string makh, hokh, tenkh, gioitinh, sdt, diachi, email;
                 try
                 {
                     SqlDataReader dr = dp.ExecuteReader(sql);
@@ -30,11 +30,12 @@ namespace XeMay_DAO
                         hokh = dr.GetString(1);
                         tenkh = dr.GetString(2);
                         // ngaysinh = dr.GetString(3);
-                        diachi = dr.GetString(4);
-                        sdt = dr.GetString(5);
-                        email = dr.GetString(6);
+                        gioitinh = dr.GetString(4);
+                        diachi = dr.GetString(5);
+                        sdt = dr.GetString(6);
+                        email = dr.GetString(7);
 
-                        KhachHang em = new KhachHang(makh, hokh, tenkh, sdt, diachi, email);
+                        KhachHang em = new KhachHang(makh, hokh, tenkh, gioitinh, sdt, diachi, email);
                         list.Add(em);
                     }
                     dr.Close();
@@ -58,6 +59,7 @@ namespace XeMay_DAO
             paras.Add(new SqlParameter("@hokh", emp.HoKH));
             paras.Add(new SqlParameter("@tenkh", emp.TenKH));
             //paras.Add(new SqlParameter("@ngaysinh", emp.Ngaysinh));
+            paras.Add(new SqlParameter("@gioitinh",emp.GioiTinh));
             paras.Add(new SqlParameter("@sdt", emp.SDT));
             paras.Add(new SqlParameter("@diachi", emp.DiaChi));
             paras.Add(new SqlParameter("@email", emp.Email));

@@ -262,6 +262,7 @@
             this.dgvHoaDonXuat.Name = "dgvHoaDonXuat";
             this.dgvHoaDonXuat.Size = new System.Drawing.Size(675, 154);
             this.dgvHoaDonXuat.TabIndex = 34;
+            this.dgvHoaDonXuat.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDonXuat_RowEnter);
             // 
             // frmHoaDonBan
             // 

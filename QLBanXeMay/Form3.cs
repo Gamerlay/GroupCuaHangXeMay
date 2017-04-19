@@ -48,17 +48,18 @@ namespace QLBanXeMay
         }
         private void btThem_Click(object sender, EventArgs e)
         {
-            string makh, hokh, tenkh, ngaysinh, sdt, diachi, email;
+            string makh, hokh, tenkh, ngaysinh, gioitinh, sdt, diachi, email;
 
             makh = txtMaKH.Text.Trim();
             hokh = txtHoKH.Text.Trim();
             tenkh = txtTenKH.Text.Trim();
             //ngaysinh = textBox4.Text.Trim();
+            gioitinh = txtGioiTinh.Text.Trim();
             diachi = txtDiaChi.Text.Trim();
             sdt = txtSDT.Text.Trim();
             email = txtEmail.Text.Trim();
 
-            KhachHang emp = new KhachHang(makh, hokh, tenkh, /*ngaysinh,*/diachi, sdt, email);
+            KhachHang emp = new KhachHang(makh, hokh, tenkh, /*ngaysinh,*/ gioitinh, diachi, sdt, email);
             try
             {
                 int i = new KhachHangBUS().Add(emp);
@@ -91,6 +92,20 @@ namespace QLBanXeMay
             cmd.ExecuteNonQuery();
             dgvKhachHang.DataSource = GetKhachHang();
             cn.Close();
+        }
+
+        private void dgvKhachHang_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            int dong;
+            dong = e.RowIndex;
+            this.txtMaKH.Text = dgvKhachHang.Rows[dong].Cells[0].Value.ToString();
+            this.txtHoKH.Text = dgvKhachHang.Rows[dong].Cells[1].Value.ToString();
+            this.txtTenKH.Text = dgvKhachHang.Rows[dong].Cells[2].Value.ToString();
+            //this.txtNgaySinh.Text = dgvKhachHang.Rows[dong].Cells[3].Value.ToString();
+            this.txtGioiTinh.Text = dgvKhachHang.Rows[dong].Cells[4].Value.ToString();
+            this.txtDiaChi.Text = dgvKhachHang.Rows[dong].Cells[5].Value.ToString();
+            this.txtSDT.Text = dgvKhachHang.Rows[dong].Cells[6].Value.ToString();
+            this.txtEmail.Text = dgvKhachHang.Rows[dong].Cells[7].Value.ToString();
         }
 
     }

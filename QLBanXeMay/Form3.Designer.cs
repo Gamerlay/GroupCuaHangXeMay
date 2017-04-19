@@ -118,6 +118,7 @@
             this.dgvKhachHang.Name = "dgvKhachHang";
             this.dgvKhachHang.Size = new System.Drawing.Size(675, 162);
             this.dgvKhachHang.TabIndex = 13;
+            this.dgvKhachHang.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhachHang_RowEnter);
             // 
             // groupBox1
             // 

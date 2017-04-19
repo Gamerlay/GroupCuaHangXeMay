@@ -90,5 +90,16 @@ namespace QLBanXeMay
             dgvNhaCungCap.DataSource = GetNhaCungCap();
             cn.Close();
         }
+
+        private void dgvNhaCungCap_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            int dong;
+            dong = e.RowIndex;
+            this.txtMaNCC.Text = dgvNhaCungCap.Rows[dong].Cells[0].Value.ToString();
+            this.txtTenNCC.Text = dgvNhaCungCap.Rows[dong].Cells[1].Value.ToString();
+            this.txtSDT.Text = dgvNhaCungCap.Rows[dong].Cells[2].Value.ToString();
+            this.txtDiaChi.Text = dgvNhaCungCap.Rows[dong].Cells[3].Value.ToString();
+            this.txtEmail.Text = dgvNhaCungCap.Rows[dong].Cells[4].Value.ToString();
+        }
     }
 }
