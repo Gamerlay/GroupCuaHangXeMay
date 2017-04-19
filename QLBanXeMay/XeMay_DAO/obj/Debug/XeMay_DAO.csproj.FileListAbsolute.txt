@@ -12,3 +12,10 @@ C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DAO\bin\Debug\XeMay_DTO.pdb
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.dll
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\bin\Debug\XeMay_DAO.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\bin\Debug\XeMay_DAO.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\bin\Debug\XeMay_DTO.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\bin\Debug\XeMay_DTO.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_DAO\obj\Debug\XeMay_DAO.pdb
