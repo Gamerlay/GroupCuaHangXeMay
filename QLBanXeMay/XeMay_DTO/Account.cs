@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace XeMay_DTO
 {
-    class Account
+     public class Account
     {
         public string UserName { get; set; }
         public string Password { get; set; }

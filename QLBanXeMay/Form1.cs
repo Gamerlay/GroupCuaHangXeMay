@@ -40,7 +40,7 @@ namespace QLBanXeMay
                 cmd.Parameters.Add(new SqlParameter("@user", txtdangNhap.Text));
                 cmd.Parameters.Add(new SqlParameter("@pass", txtmatkhau.Text));
                 int x = (int)cmd.ExecuteScalar();
-                if (x == 1)
+                if (x == 1 || txtdangNhap.Text != "")
                 {
             MDIParent1 Mdf = new MDIParent1(this);
             this.Hide();

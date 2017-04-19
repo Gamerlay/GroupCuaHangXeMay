@@ -25,3 +25,12 @@ C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_DTO.pdb
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.dll
 C:\Users\Administrator\Downloads\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_BUS.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_BUS.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_DAO.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_DTO.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_DAO.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\bin\Debug\XeMay_DTO.pdb
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.dll
+C:\Users\Administrator\Desktop\GroupCuaHangXeMay\QLBanXeMay\XeMay_BUS\obj\Debug\XeMay_BUS.pdb

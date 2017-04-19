@@ -59,6 +59,7 @@
             this.btThem.TabIndex = 1;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // groupBox1
             // 
@@ -131,6 +132,7 @@
             this.Name = "frmThemUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form14";
+            this.Load += new System.EventHandler(this.frmThemUser_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
